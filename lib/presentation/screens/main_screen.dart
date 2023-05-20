@@ -1,7 +1,6 @@
 import 'package:avatar_glow/avatar_glow.dart';
 import 'package:flutter/material.dart';
 import 'package:tic_tac_toe_game/presentation/screens/tic_tac_toe_screen.dart';
-
 import '../../core/google_fonts/google_fons.dart';
 
 class MainScreen extends StatefulWidget {
@@ -12,6 +11,7 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> with SingleTickerProviderStateMixin {
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
